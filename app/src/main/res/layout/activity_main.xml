@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/sfocc"
+        android:scaleType="centerCrop"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:fontFamily="sans-serif-bold"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:text="San Francisco Outrigger Canoe Club\n
+        610 Mason Street\n
+        The Presidio\n
+        San Francisco, California\n\n
+Tuesday/Thursday 6pm &amp; Saturdays 8am"
+
+        android:background="#ffffff"
+        android:layout_alignParentLeft="true"
+        android:padding="15dp"
+        android:layout_marginBottom="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
