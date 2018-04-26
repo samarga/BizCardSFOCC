@@ -7,7 +7,7 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <ImageView
+    <ImageView android:id="@+id/image"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:src="@drawable/sfocc"
@@ -15,22 +15,51 @@
         android:layout_weight="1"
         />
 
-    <TextView
+    <TextView android:id="@+id/address"
         android:fontFamily="sans-serif-bold"
         android:textSize="20sp"
         android:textColor="#000000"
-        android:text="San Francisco Outrigger Canoe Club\n
-        610 Mason Street\n
-        The Presidio\n
-        San Francisco, California\n\n
-Tuesday/Thursday 6pm &amp; Saturdays 8am"
-
+        android:text="@string/address"
         android:background="#ffffff"
         android:layout_alignParentLeft="true"
-        android:padding="15dp"
-        android:layout_marginBottom="40dp"
+        android:padding="16dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
+    <TextView android:id="@+id/url"
+        android:fontFamily="sans-serif-bold"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:text="@string/url"
+        android:background="#ffffff"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView android:id="@+id/contactInfo"
+        android:fontFamily="sans-serif-bold"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:text="@string/contactInfo"
+        android:background="#ffffff"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView android:id="@+id/hours"
+        android:fontFamily="sans-serif-bold"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:text="@string/hours"
+        android:background="#ffffff"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>

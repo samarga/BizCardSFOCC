@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Business Card SFOCC</string>
+    <string name="app_name">San Francisco Outrigger Canoe Club</string>
+    <string name="address">610 Mason Street\nThe Presidio\nSan Francisco, California</string>
+    <string name="url">http://www.sfocc.org/</string>
+    <string name="contactInfo">info@sfocc.org</string>
+    <string name="hours">Tuesday, Thursday 6pm &amp; Saturday 8am</string>
 </resources>
