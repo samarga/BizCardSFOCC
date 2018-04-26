@@ -15,14 +15,27 @@
         android:layout_weight="1"
         />
 
+    <TextView android:id="@+id/businessName"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:text="@string/app_name"
+        android:background="#ffffff"
+        android:layout_alignParentLeft="true"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
     <TextView android:id="@+id/address"
         android:fontFamily="sans-serif-bold"
         android:textSize="20sp"
         android:textColor="#000000"
         android:text="@string/address"
+        android:autoLink = "map"
         android:background="#ffffff"
         android:layout_alignParentLeft="true"
-        android:padding="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
@@ -31,6 +44,7 @@
         android:textSize="20sp"
         android:textColor="#000000"
         android:text="@string/url"
+        android:autoLink = "web"
         android:background="#ffffff"
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="16dp"
@@ -43,6 +57,7 @@
         android:textSize="20sp"
         android:textColor="#000000"
         android:text="@string/contactInfo"
+        android:autoLink = "email"
         android:background="#ffffff"
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="16dp"

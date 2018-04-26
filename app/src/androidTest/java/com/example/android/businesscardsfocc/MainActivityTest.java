@@ -43,6 +43,8 @@ public class MainActivityTest {
                                 0),
                         isDisplayed()));
         textView.check(matches(withText("San Francisco Outrigger Canoe Club")));
+
+        onView(withId(R.id.businessName)).check(matches(withText("San Francisco Outrigger Canoe Club")));
     }
 
     @Test
